@@ -23,11 +23,11 @@ python train.py --batch_size 32 --timm --num_epochs 50 --lr 1e-5 --seed 1 --lidc
 
 * Kindly cite our publication if you use any part of the code
 ```
-@article{raghav2023Operating,
+@inproceedings{raghav2023Operating,
  	title={Operating critical machine learning models in resource constrained regimes},
 	author={Raghavendra Selvan and Julian Schön and Erik B. Dam},
-	journal={Arxiv},
-	month={Feb},
+	booktitle={Workshop on Resource Aware Medical Imaging at MICCAI},
+	month={July},
  	note={arXiv preprint arXiv:2302.06900},
 	year={2023}}
 ```
