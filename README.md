@@ -13,7 +13,7 @@ This is the official Pytorch implementation of
 
 * Basic Pytorch dependency
 * Tested on Pytorch 1.7, Python 3.8
-* The preprocessed LIDC data is provided as an archive [here](). Unzip and point that as the data_dir.
+* The preprocessed LIDC data is provided as an archive [here](https://bitbucket.org/raghavian/lotenet_pytorch/src/master/data/lidc.zip). Unzip and point that as the data_dir.
 * Fine tune a pretrained Densenet model from with half precision using 8-bit optimizer: 
 
 python train.py --batch_size 32 --timm --num_epochs 50 --lr 1e-5 --seed 1 --lidc --model_name densenet --bnb --half
